@@ -1,0 +1,25 @@
+[debug] [2023-11-08T14:32:46.767Z] ----------------------------------------------------------------------
+[debug] [2023-11-08T14:32:46.812Z] Command:       C:\Program Files (x86)\nodejs\node.exe C:\Users\nati\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-11-08T14:32:46.814Z] CLI Version:   12.8.1
+[debug] [2023-11-08T14:32:46.815Z] Platform:      win32
+[debug] [2023-11-08T14:32:46.816Z] Node Version:  v18.17.1
+[debug] [2023-11-08T14:32:47.099Z] Time:          Wed Nov 08 2023 19:32:46 GMT+0500 (Pakistan Standard Time)
+[debug] [2023-11-08T14:32:47.100Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-11-08T14:32:47.517Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-11-08T14:32:47.518Z] > authorizing via signed-in user (natnaelwosen2003@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\nati\Desktop\Amazon\amazon
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+

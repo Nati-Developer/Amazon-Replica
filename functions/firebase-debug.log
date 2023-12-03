@@ -1,0 +1,114 @@
+[debug] [2023-11-08T14:56:25.260Z] ----------------------------------------------------------------------
+[debug] [2023-11-08T14:56:25.264Z] Command:       C:\Program Files (x86)\nodejs\node.exe C:\Users\nati\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2023-11-08T14:56:25.264Z] CLI Version:   12.8.1
+[debug] [2023-11-08T14:56:25.265Z] Platform:      win32
+[debug] [2023-11-08T14:56:25.265Z] Node Version:  v18.17.1
+[debug] [2023-11-08T14:56:25.267Z] Time:          Wed Nov 08 2023 19:56:25 GMT+0500 (Pakistan Standard Time)
+[debug] [2023-11-08T14:56:25.268Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-11-08T14:56:25.512Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-11-08T14:56:25.513Z] > authorizing via signed-in user (natnaelwosen2003@gmail.com)
+[info] i  emulators: Starting emulators: functions, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting"}}
+[debug] [2023-11-08T14:56:25.599Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-11-08T14:56:25.600Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[warn] !  ui: Emulator UI unable to start on port 4000, starting on 4001 instead. {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI unable to start on port 4000, starting on 4001 instead."}}
+[debug] [2023-11-08T14:56:25.606Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4001},{"address":"::1","family":"IPv6","port":4001}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2023-11-08T14:56:26.151Z] [hub] writing locator at C:\Users\nati\AppData\Local\Temp\hub-nati-a5548.json
+[debug] [2023-11-08T14:56:26.618Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-11-08T14:56:26.620Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-11-08T14:56:26.621Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4001},{"address":"::1","family":"IPv6","port":4001}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, pubsub, storage\u001b[22m"}}
+[debug] [2023-11-08T14:56:26.639Z] defaultcredentials: writing to file C:\Users\nati\AppData\Roaming\firebase\natnaelwosen2003_gmail_com_application_default_credentials.json
+[debug] [2023-11-08T14:56:26.887Z] Setting GAC to C:\Users\nati\AppData\Roaming\firebase\natnaelwosen2003_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\nati\\AppData\\Roaming\\firebase\\natnaelwosen2003_gmail_com_application_default_credentials.json"}}
+[debug] [2023-11-08T14:56:26.895Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/nati-a5548/adminSdkConfig [none]
+[debug] [2023-11-08T14:56:28.952Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/nati-a5548/adminSdkConfig 200
+[debug] [2023-11-08T14:56:28.953Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/nati-a5548/adminSdkConfig {"projectId":"nati-a5548","storageBucket":"nati-a5548.appspot.com"}
+[debug] [2023-11-08T14:56:29.057Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/nati-a5548/sites 
+[debug] [2023-11-08T14:56:32.240Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/nati-a5548/sites 200
+[debug] [2023-11-08T14:56:32.241Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/nati-a5548/sites {"sites":[{"name":"projects/nati-a5548/sites/nati-a5548","defaultUrl":"https://nati-a5548.web.app","appId":"1:527003570534:web:d99a521bb3f72ea22178a7","type":"DEFAULT_SITE"}]}
+[debug] [2023-11-08T14:56:32.241Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/nati-a5548/webApps/1:527003570534:web:d99a521bb3f72ea22178a7/config [none]
+[debug] [2023-11-08T14:56:33.843Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/nati-a5548/webApps/1:527003570534:web:d99a521bb3f72ea22178a7/config 200
+[debug] [2023-11-08T14:56:33.844Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/nati-a5548/webApps/1:527003570534:web:d99a521bb3f72ea22178a7/config {"projectId":"nati-a5548","appId":"1:527003570534:web:d99a521bb3f72ea22178a7","storageBucket":"nati-a5548.appspot.com","apiKey":"AIzaSyA72hQjWMkk7CdMWd2ZkOV56yALuYAMKsg","authDomain":"nati-a5548.firebaseapp.com","messagingSenderId":"527003570534","measurementId":"G-WQ27GLVQ67"}
+[debug] [2023-11-08T14:56:33.935Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/nati-a5548 [none]
+[debug] [2023-11-08T14:56:35.148Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/nati-a5548 200
+[debug] [2023-11-08T14:56:35.149Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/nati-a5548 {"projectId":"nati-a5548","projectNumber":"527003570534","displayName":"Amazon-Nati","name":"projects/nati-a5548","resources":{"hostingSite":"nati-a5548"},"state":"ACTIVE","etag":"1_482591b2-41fc-4c4e-8a83-74121e5e2f8c"}
+[debug] [2023-11-08T14:56:35.156Z] Specified "public" directory "build" does not exist; Deploy to Hosting site "nati-a5548" may fail or be empty.
+[info] i  hosting[nati-a5548]: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting[nati-a5548]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[debug] [2023-11-08T14:56:35.607Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2023-11-08T14:56:35.702Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2023-11-08T14:56:35.703Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\nati\\.cache\\firebase\\emulators\\ui-v1.11.7\\server\\server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\nati\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.11.7\\\\server\\\\server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2023-11-08T14:56:36.921Z] Web / API server started at 127.0.0.1:4001
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4001\n"}}
+[debug] [2023-11-08T14:56:36.921Z] Web / API server started at ::1:4001
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4001\n"}}
+[info] i  functions: Watching "C:\Users\nati\Desktop\Amazon\amazon\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\nati\\Desktop\\Amazon\\amazon\\functions\" for Cloud Functions..."}}
+[debug] [2023-11-08T14:56:37.022Z] Validating nodejs source
+[debug] [2023-11-08T14:56:47.650Z] checkFunctionsSDKVersion was unable to fetch information from NPM Error: spawnSync C:\Windows\system32\cmd.exe ETIMEDOUT
+    at Object.spawnSync (node:internal/child_process:1110:20)
+    at Object.spawnSync (node:child_process:871:24)
+    at Function.spawnSync [as sync] (C:\Users\nati\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\cross-spawn\index.js:26:23)
+    at Object.getLatestSDKVersion (C:\Users\nati\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\functions\runtimes\node\versioning.js:54:25)
+    at Object.checkFunctionsSDKVersion (C:\Users\nati\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\functions\runtimes\node\versioning.js:74:32)
+    at Delegate.validate (C:\Users\nati\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\functions\runtimes\node\index.js:84:20)
+    at FunctionsEmulator.discoverTriggers (C:\Users\nati\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:296:35)
+    at async FunctionsEmulator.loadTriggers (C:\Users\nati\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:325:34)
+    at async FunctionsEmulator.connect (C:\Users\nati\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:262:13)
+    at async Object.startAll (C:\Users\nati\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\controller.js:565:13)
+[debug] [2023-11-08T14:56:47.653Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.17.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-11-08T14:56:47.654Z] Building nodejs source
+[debug] [2023-11-08T14:56:47.655Z] Failed to find version of module node: reached end of search path C:\Users\nati\Desktop\Amazon\amazon\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-11-08T14:56:47.662Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-11-08T14:56:47.679Z] Found firebase-functions binary at 'C:\Users\nati\Desktop\Amazon\amazon\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-11-08T14:57:01.598Z] Failed to call quitquitquit. This often means the server failed to start request to http://localhost:8653/__/quitquitquit failed, reason: connect ECONNREFUSED ::1:8653 {"message":"request to http://localhost:8653/__/quitquitquit failed, reason: connect ECONNREFUSED ::1:8653","type":"system","errno":"ECONNREFUSED","code":"ECONNREFUSED"}
+[error] !!  functions: Failed to load function definition from source: FirebaseError: User code failed to load. Cannot determine backend specification {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: User code failed to load. Cannot determine backend specification"}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4001/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ 127.0.0.1:5001 │ http://127.0.0.1:4001/functions │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Hosting   │ 127.0.0.1:5000 │ n/a                             │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[info] Serving at port 8653
+
